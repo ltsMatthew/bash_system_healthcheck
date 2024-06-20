@@ -7,7 +7,7 @@ It acts as a base template to build upon.
 
 It's designed to give users a quick snapshot of their system's overall health. It checks and reports on various system metrics, making it easier to monitor and troubleshoot potential issues.
 
-Script was created in the CentOS 7 Red Hat Linux environment.
+Script was created in the CentOS 7 Red Hat Linux environment. (might have issues with other distros)
 
 ## Features
 
@@ -24,7 +24,7 @@ Since this is a Bash script, there is no installation required. Simply download 
 
 ```bash
 # Download the script
-curl -O https://raw.githubusercontent.com/Ace14O/bash_syshealthcheck/main/syshealthcheck.sh
+curl -O https://raw.githubusercontent.com/ltsMatthew/bash_system_healthcheck/main/system_healthcheck.sh
 
 # Make the script executable
 chmod +x syshealthcheck.sh
