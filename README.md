@@ -37,7 +37,7 @@ eg. the ntp service or httpd service, feel free to add your own services if need
 
 This script is system specfic, therefore some counters need to be changed to match your system's configuration.
 
-There's currently 2 Sections in the script that would need to be changed to match that of your system so the "if" statements can function properly.
+There's currently 2 Sections in the script that would need to be changed to match that of your system so the "if statements" can function properly.
 (You can also edit all the other counters as needed, remember this is just a base template!)
 
 Section 1 - CPU, you will need to edit the "CPU_THRESHOLD" variable to the number you would like the Threshold to be, it should be based on the number of Cores your system has!
