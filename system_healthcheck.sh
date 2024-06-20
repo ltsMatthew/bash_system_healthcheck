@@ -20,8 +20,8 @@ firewalld=$(systemctl status firewalld | grep "Active" | awk '{print $2}')
 httpd=$(systemctl status httpd | grep "Active" | awk '{print $2}')
 
 #CPU
-#NOTE: Edit the CPU "THRESHOLD" variable to the number you would like the
-#      the Threshold to be, based on the number on Cores your system has!
+#NOTE: Edit the "CPU_THRESHOLD" variable to the number you would like the
+#      the Threshold to be, it should be based on the number of Cores your system has!
 
 CPU_THRESHOLD=$(echo "1")
 CPU_1_MIN=$(uptime | awk '{print int($10)}')
